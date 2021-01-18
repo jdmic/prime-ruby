@@ -11,12 +11,12 @@ def prime?(interger)
         range1.each do |number|
             if interger % number >= 1
                 count += 1
-            else
-                reject += 1
         end
     end
-    if count == 0
+
+if count == 0
         return true
     else
         return false
+    end
 end
